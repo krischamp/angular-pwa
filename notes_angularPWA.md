@@ -76,3 +76,29 @@ ng g c articles-technology
 ```
 
 Head back to your code editor and you’ll see the new articles-technology directory we created — as well as the navbar directory we made earlier.
+
+Open the articles-technology.component.ts file and edit it to add our NewsAPI service and create the array for the Technology News articles.
+
+Next open the articles-technology.component.html file and delete all the boilerplate code that was added when the CLI created it. Edit the file to display the Technology News articles from our service provider.
+
+Let’s see how that looks. Open the app.component.html file, delete all the boilerplate code and add the articles-technology component:
+
+```
+<app-articles-technology></app-articles-technology>
+```
+
+Save your files and view the app in your browser to see the Technology News being displayed.
+
+## Add the JavaScript News component
+
+In your terminal, create a new component to hold our JavaScript News content:
+
+```
+ng g c articles-javascript
+```
+
+As we did with the articles-technology component files, first we’ll edit the articles-javascript.component.ts ... and then edit the articles-javascript.component.html file ...
+
+## Add routing
+
+Now that we have our Technology News and JavaScript News components, we’ll add our navigation. First we’ll add routing by editing the app-routing.module.ts file to import our components and construct paths to them.
