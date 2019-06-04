@@ -97,8 +97,10 @@ In your terminal, create a new component to hold our JavaScript News content:
 ng g c articles-javascript
 ```
 
-As we did with the articles-technology component files, first we’ll edit the articles-javascript.component.ts ... and then edit the articles-javascript.component.html file ...
+As we did with the articles-technology component files, first we’ll edit the **articles-javascript.component.ts** ... and then edit the **articles-javascript.component.html** file ...
 
 ## Add routing
 
-Now that we have our Technology News and JavaScript News components, we’ll add our navigation. First we’ll add routing by editing the app-routing.module.ts file to import our components and construct paths to them.
+Now that we have our Technology News and JavaScript News components, we’ll add our navigation. First we’ll add routing by editing the **app-routing.module.ts** file to import our components and construct paths to them.
+
+Now we can format the navbar component by editing the **navbar.component.html** file ...
