@@ -187,3 +187,11 @@ Now go checkout our PWA at: http://127.0.0.1:8080
 ---
 
 ## Deploy the PWA with Netlify
+
+Okay, we built a PWA with Angular but what’s the point if we don’t get it onto our mobile device? To do that, let’s use Netlify.
+
+Login and click on New site from Git button.
+
+Add your repository and enter ng build --prod as the build command and dist/angular-pwa as the publish directory — then click the Deploy site button.
+
+When the deploy is finished, you’ll get a URL you can open on your smartphone to view your PWA. Save it to your home screen to save an icon to your creation.
