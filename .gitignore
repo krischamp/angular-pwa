@@ -40,7 +40,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/src/notes.md
+notes*.md
 
 # System Files
 .DS_Store
